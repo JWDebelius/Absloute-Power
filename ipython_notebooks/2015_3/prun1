@@ -1,0 +1,16 @@
+         35953849 function calls (35595389 primitive calls) in 45.959 seconds
+
+   Ordered by: internal time
+   List reduced from 329 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+    70710    2.751    0.000    3.534    0.000 index.py:1578(isin)
+  7235790    2.131    0.000    2.752    0.000 {isinstance}
+212450/212370    2.115    0.000    7.830    0.000 index.py:125(__new__)
+   991230    1.905    0.000    1.905    0.000 {numpy.core.multiarray.array}
+   283140    1.561    0.000    3.449    0.000 common.py:2279(_asarray_tuplesafe)
+   212400    1.548    0.000    1.548    0.000 {pandas.lib.infer_dtype}
+   216160    1.296    0.000    1.296    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+   140820    1.239    0.000   10.204    0.000 indexing.py:1240(_has_valid_type)
+2046180/1976180    0.949    0.000    0.981    0.000 {getattr}
+    70820    0.804    0.000   31.789    0.000 indexing.py:930(_getitem_iterable)

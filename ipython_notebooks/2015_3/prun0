@@ -1,0 +1,16 @@
+         35954115 function calls (35595655 primitive calls) in 46.787 seconds
+
+   Ordered by: cumulative time
+   List reduced from 332 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   46.787   46.787 <string>:4(<module>)
+        1    0.001    0.001   46.787   46.787 power.py:328(subsample_paired_power)
+       10    0.002    0.000   45.913    4.591 power.py:916(_calculate_power_curve)
+       70    0.323    0.005   45.909    0.656 power.py:829(_compare_distributions)
+    35000    0.549    0.000   44.418    0.001 <ipython-input-4-640c322d58e3>:1(test_alpha)
+140820/70820    0.146    0.000   38.698    0.001 indexing.py:1198(__getitem__)
+    70000    0.053    0.000   38.032    0.001 indexing.py:697(_getitem_tuple)
+    70000    0.692    0.000   37.979    0.001 indexing.py:798(_getitem_lowerdim)
+   140820    0.566    0.000   36.379    0.000 indexing.py:1311(_getitem_axis)
+    70820    0.817    0.000   32.399    0.000 indexing.py:930(_getitem_iterable)

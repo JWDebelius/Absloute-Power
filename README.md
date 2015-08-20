@@ -1,2 +1,4 @@
 # Absloute-Power
-Validation of empirical power code.
+
+A place to validate the emperical power code in `skbio.stats.power`.
+

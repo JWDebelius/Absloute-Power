@@ -1,0 +1,16 @@
+         4353065 function calls in 9.478 seconds
+
+   Ordered by: cumulative time
+   List reduced from 72 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    9.478    9.478 <string>:4(<module>)
+        1    0.000    0.000    9.478    9.478 power.py:152(subsample_power)
+       10    0.001    0.000    9.478    0.948 power.py:916(_calculate_power_curve)
+       60    0.254    0.004    9.474    0.158 power.py:829(_compare_distributions)
+    30000    0.041    0.000    7.556    0.000 <ipython-input-12-1563e693a5e4>:2(test)
+    30000    0.397    0.000    7.515    0.000 stats.py:3271(ttest_ind)
+    30000    0.183    0.000    3.745    0.000 stats.py:3262(_ttest_finish)
+    30000    0.841    0.000    3.562    0.000 _distn_infrastructure.py:1701(sf)
+    60000    0.089    0.000    2.363    0.000 fromnumeric.py:2830(var)
+    60000    1.186    0.000    2.274    0.000 _methods.py:77(_var)

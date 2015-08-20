@@ -1,0 +1,16 @@
+         4353065 function calls in 9.319 seconds
+
+   Ordered by: internal time
+   List reduced from 72 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+   270121    1.317    0.000    1.317    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+    60000    1.168    0.000    2.240    0.000 _methods.py:77(_var)
+    60000    0.979    0.000    1.503    0.000 {method 'choice' of 'mtrand.RandomState' objects}
+    30000    0.823    0.000    3.498    0.000 _distn_infrastructure.py:1701(sf)
+   660091    0.662    0.000    0.662    0.000 {numpy.core.multiarray.array}
+    30000    0.393    0.000    7.388    0.000 stats.py:3271(ttest_ind)
+    30000    0.383    0.000    1.418    0.000 _distn_infrastructure.py:549(argsreduce)
+    60000    0.249    0.000    0.808    0.000 _methods.py:53(_mean)
+       60    0.249    0.004    9.315    0.155 power.py:829(_compare_distributions)
+   270000    0.197    0.000    0.473    0.000 numeric.py:464(asanyarray)
