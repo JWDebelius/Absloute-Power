@@ -1,0 +1,12 @@
+The following questions are outstanding:
+
+* How many samples per group are required from each group to properly sample the space?
+
+* How do the number of samples required per group change when additional constraints are placed on the data?
+
+* How many simulations are required to properly sample the space? Is it better to have a more exactly power estimation, or to have more simulations?
+
+* How many points are required for an accurate power estimate?
+
+* How many metadata categories need to be controlled for a better estimate? Does the effect size of these categories matter?
+
