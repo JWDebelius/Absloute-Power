@@ -1,10 +1,10 @@
+
 from __future__ import division
 
 from unittest import TestCase, main
 
 import numpy as np
 import numpy.testing as npt
-import scipy.stats as stats
 
 from absloute_power.traditional import (calc_ttest_1,
                                         calc_ttest_ind,

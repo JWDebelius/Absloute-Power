@@ -21,7 +21,10 @@ def calc_ttest_1(sample, x0, counts, alpha=0.05):
 
     Returns
     -------
-
+    power : array
+        This describes the probability of seeing a signifigant difference
+        between the sample and mean for the specified number of observations
+        (count) and critical value based on the one sample t test.
     """
     # Gets the distribution paramteres
     [x, s] = _get_vitals(sample)
@@ -40,7 +43,24 @@ def calc_ttest_1(sample, x0, counts, alpha=0.05):
 
 
 def calc_ttest_ind(sample1, sample2, counts, alpha=0.05):
-    """Calculates statistical power for a two sample t test"""
+    """Calculates statistical power for a two sample t test
+
+    Parameters
+    ----------
+    sample1, sample2 : array
+        The samples being tested
+    counts : array
+        the number of observations per sample to be used to test the power
+    alpha : float
+        The critical value for power calculations
+
+    Returns
+    -------
+    power : array
+        This describes the probability of seeing a signifigant difference
+        between the samples for the specified number of observations
+        (count) and critical value based on the independent two sample t test.
+    """
     # Gets the distribuation characterization
     [x1, s1] = _get_vitals(sample1)
     [x2, s2] = _get_vitals(sample2)
